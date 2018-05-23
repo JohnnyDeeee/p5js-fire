@@ -3,12 +3,12 @@ const _width = 400; // Width of the canvas
 const _height = 300; // Height of the canvas
 
 /* Settings */
-// const firePixelChance = 1; // Chance a pixel will get the fireColor (1=100%,0.01=1%) (keep it at 1...)
-// const coolingRate = 1; // Rate at which the fire will cool down (lower=faster,higher=slower)
-// const heatSourceSize = 2; // Size (in y rows) of the heatSource at the bottom
-// const noiseIncrement = 0.02; // ???
-// const noiseIntensity = 20; // Intensity of the 'smoke' color
-// const fireColor = [255, 100, 0, 255]; // The color of the fire
+const firePixelChance = 1; // Chance a pixel will get the fireColor (1=100%,0.01=1%) (keep it at 1...)
+const coolingRate = 1; // Rate at which the fire will cool down (lower=faster,higher=slower)
+const heatSourceSize = 2; // Size (in y rows) of the heatSource at the bottom
+const noiseIncrement = 0.02; // ???
+const noiseIntensity = 20; // Intensity of the 'smoke' color
+const fireColor = [255, 100, 0, 255]; // The color of the fire
 
 /* Lava kind of */
 // const firePixelChance = 1;
@@ -34,13 +34,13 @@ const _height = 300; // Height of the canvas
 // const noiseIntensity = 20;
 // const fireColor = [255, 100, 0, 255];
 
-/* */
-const firePixelChance = 1;
-const coolingRate = 0;
-const heatSourceSize = 10;
-const noiseIncrement = 0.009;
-const noiseIntensity = 20;
-const fireColor = [200, 200, 200, 255];
+/* Smoke */
+// const firePixelChance = 1;
+// const coolingRate = 0;
+// const heatSourceSize = 10;
+// const noiseIncrement = 0.009;
+// const noiseIntensity = 20;
+// const fireColor = [200, 200, 200, 255];
 
 const bufferWidth = _width;
 const bufferHeight = _height;
